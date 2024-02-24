@@ -1,0 +1,5 @@
+
+server:
+  port: 8083
+
+message: Este mensaje viene del entorno prod

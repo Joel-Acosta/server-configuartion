@@ -1,0 +1,6 @@
+
+
+server:
+  port: 8082
+
+message: Este mensaje viene del entorno dev

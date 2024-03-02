@@ -2,7 +2,18 @@ server:
   port: 0
 spring:
   application:
-    name: catalog-service      
+    name: catalog-service
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true          
 eureka:
   client:
     service-url:
